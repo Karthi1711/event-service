@@ -7,7 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/Event")
+@RequestMapping("/event")
 public class EventController {
 
     private EventService eventService;
