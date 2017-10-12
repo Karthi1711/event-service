@@ -4,9 +4,9 @@ info:
 spring:
   application:
     name: event-service
-#data:
-  #mongodb:
-    #uri: mongodb://localhost:27017/OMS
+#  data:
+#    mongodb:
+#      uri: mongodb://localhost:27017/OMS
 
 
 oms:
@@ -29,5 +29,5 @@ logging:
     root: DEBUG
     org.springframework.web: ERROR
     com.oms.product: DEBUG
-server:
-  port: 9095
+#server:
+#  port: 9095
